@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P201\\14 - C# practice\\29102921\\29102921\\29102921.csproj",
+      "projectUniqueName": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P201\\14 - C# practice\\P201_C-class-practice\\29102921\\29102921\\29102921.csproj",
       "projectName": "29102921",
-      "projectPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P201\\14 - C# practice\\29102921\\29102921\\29102921.csproj",
+      "projectPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P201\\14 - C# practice\\P201_C-class-practice\\29102921\\29102921\\29102921.csproj",
       "packagesPath": "C:\\Users\\Eagha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P201\\14 - C# practice\\29102921\\29102921\\obj\\",
+      "outputPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P201\\14 - C# practice\\P201_C-class-practice\\29102921\\29102921\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

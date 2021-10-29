@@ -6,16 +6,16 @@ namespace StoreApp
 {
     class Notebook:Product
     {
-        Notebook(double price,int count,string model) : base(price, count)
+        public Notebook(double price,int count,string model) : base(price, count)
         {
             this.Model = model;
         }
-        Notebook(double price, int count, string model,string brand) : base(price, count)
+        public Notebook(double price, int count, string model,string brand) : base(price, count)
         {
             this.Model = model;
             this.Brand = brand;
         }
-        Notebook(double price, int count, string model, string brand,int ram,int storage) : base(price, count)
+        public Notebook(double price, int count, string model, string brand,int ram,int storage) : base(price, count)
         {
             this.Model = model;
             this.Brand = brand;
@@ -27,5 +27,10 @@ namespace StoreApp
         public string Model;
         public int Ram;
         public int Storage;
+
+        public string GetInfo()
+        {
+            return $"Brand: {this.Brand} - Model: {this.Model} - Price: {this.Price} - RAM: {this.Ram} - Storage: {this.Storage} - Count: {this.Count}";
+        }
     }
 }
